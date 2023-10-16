@@ -1,0 +1,159 @@
+.card{
+    width: 30%;
+    background-color: #fff;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    margin-top: 15px;
+    box-shadow:0px 2px 5px 2px #ccc;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:15px;
+}
+.img{
+    border-radius: 12px;
+}
+.order{
+    padding: 5%;
+    margin: 10px 10px 0px 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    box-shadow:0px 1px 3px 2px ;
+}
+.titleContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.order:hover{
+    background-color: blue;
+    color: white;
+}
+.header{
+    display: flex;
+    width: 35%;
+    padding-left: 20px;
+    justify-content: space-around;
+    background-color: white;
+}
+.con{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.head{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+}
+.hbtn{
+    padding: 1%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    text-transform: capitalize;  
+    margin-top: 18px;
+    border-radius: 5px;
+    border: none;
+}
+.hbtn:hover{
+    background-color: blue;
+    color: white;
+}
+.itemDelcontainer{
+    margin-top:18px;
+}
+.homelinkdiv{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+.Homelink{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6.5%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Homelink:hover{
+    background-color: blue;
+    color: white;
+}
+.itemdetails{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    width: 40%;
+    box-shadow:0px 1px 3px 2px ;
+    padding: 10px;
+    border-radius: 10px;
+}
+.itemdetails  img{
+    border-radius: 12px;
+}
+
+@media screen and (max-width:800px) {
+    .card{
+        width: 100%;
+        background-color: #fff;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 24px;
+        margin-top: 15px;
+        box-shadow:0px 2px 5px 2px #ccc ;
+    }
+    .img{
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap:15px;
+    }
+    .header{
+        display: flex;
+        width: 100%;
+        padding-left: 0px;
+        justify-content: space-around;
+        background-color: white;
+    }
+    .head{
+        width: 100%;
+        background-color: white;
+        padding: 0;
+    }
+    .hbtn{
+        padding: 1%;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+        text-transform: capitalize;  
+        margin-top: 18px;
+        border-radius: 5px;
+        border: none;
+    }
+    .itemdetails{
+        width: 100%;
+        margin-top: 30px;
+        /* padding: 10px; */
+    }
+    .itemdetails  img{
+        width: 100%;
+        height: 300px;
+    }
+    .Homelink{
+        position: relative;
+        left: 90px;
+    }
+    .ft{
+        background-color:white;
+        height: 30px;
+    }
+}
